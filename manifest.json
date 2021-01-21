@@ -38,7 +38,7 @@
 		"purpose": "any"
 	}],
 	"lang": "en-US",
-	"start_url": "/PWA00/index.html",
+	"start_url": "/PWA00Debug/index.html",
 	"display": "standalone",
 	"prefer_related_applications": false,
 	"background_color": "white",

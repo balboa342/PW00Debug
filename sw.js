@@ -22,7 +22,7 @@ const PRECACHE_URLS = [
 self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open(PRECACHE).then(function(cache){
-      return cache.addAll(filesToCache);
+      return cache.addAll(PRECACHE_URLS);
     })
     );
 });
